@@ -1,6 +1,5 @@
 # Day 6 - LeetCode-style function practice in Python
 # Problem: Two Sum
-
 def two_sum(nums, target):
     seen = {}
 
