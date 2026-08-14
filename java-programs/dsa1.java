@@ -2,9 +2,7 @@
 // Topic: Super easy array + input/output warmup
 
 import java.util.Scanner;
-
 public class Day1 {
-
     public static void main(String[] args) {
         // Create a Scanner object to read input from the keyboard
         Scanner sc = new Scanner(System.in);
