@@ -14,6 +14,6 @@ def count_vowels(s):
     return sum(1 for ch in s.lower() if ch in 'aeiou')
 
 if __name__ == '__main__':
-    print(reverse_string('hello'))          # olleh
+    print(reverse_string('hello'))          
     print(find_largest([3, 7, 1, 9, 4]))    # 9
     print(count_vowels('Vasanth sesetti'))  # 6
