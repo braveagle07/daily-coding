@@ -1,6 +1,5 @@
 // Day 1 - 180 Days of DSA in Java
 // Topic: Super easy array + input/output warmup
-
 import java.util.Scanner;
 public class Day1 {
     public static void main(String[] args) {
