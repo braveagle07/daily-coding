@@ -28,29 +28,6 @@ daily-coding/
 ├── leetcode problems       # LeetCode solutions
 └── README.md
 ```
-
-## Today's Program
-
-### Random Number and Maximum Finder
-
-This program uses Python's built-in `random` library to generate five random integers and print the largest one.
-
-```python
-import random
-
-nums = [random.randint(1, 100) for _ in range(5)]
-
-print("Random numbers:", nums)
-print("Largest number:", max(nums))
-```
-
-Example output:
-
-```text
-Random numbers:[2][3]
-Largest number: 92
-```
-
 ## Goals
 
 - Code every day
