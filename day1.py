@@ -1,7 +1,6 @@
 # Day 1 - July 8, 2026
 # Problem: Find the sum of all even numbers in a list
 # Platform: Daily Practice
-
 def sum_of_evens(numbers):
     """Return the sum of all even numbers in a list."""
     return sum(num for num in numbers if num % 2 == 0)
