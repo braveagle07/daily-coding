@@ -43,10 +43,9 @@ For each problem, I will try to include:
 
 ## Progress
 
-| # | Problem | Python | Java | Difficulty |
-|---|---------|:------:|:----:|------------|
-| 1 | Two Sum | ✅ | ✅ | Easy |
-| 2 | Add Two Numbers | ⬜ | ⬜ | Medium |
+| 1 | Add Two Integers | ✅ | ⬜ | Easy |
+| 2 | Sqrt(x) | ✅ | ⬜ | Easy |
+| 3 | Fizz Buzz | ✅ | ⬜ | Easy |
 
 ## Learning Rule
 
