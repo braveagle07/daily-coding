@@ -49,6 +49,6 @@ For each problem, I will try to include:
 
 ## Learning Rule
 
-> First understand the problem, then think of an approach, and finally implement it in Python and Java.
+> First understand the problem, then think of an approach, and finally implement it in Python or Java.
 
 Happy coding! 🚀
