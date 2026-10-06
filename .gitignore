@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Java build artifacts
+*.class
+*.jar
+/bin/
+/build/
+/target/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
