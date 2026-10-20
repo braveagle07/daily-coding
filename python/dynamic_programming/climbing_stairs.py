@@ -1,4 +1,17 @@
-def climb_stairs(n):
+"""LeetCode 70 - Climbing Stairs.
+
+You can climb 1 or 2 steps at a time. How many distinct ways are there to
+reach the top of an n-step staircase?
+
+Recurrence: ways(i) = ways(i - 1) + ways(i - 2), the Fibonacci sequence.
+"""
+
+
+def climb_stairs_optimized(n):
+    """Keep only the last two values.
+
+    Time: O(n), Space: O(1)
+    """
     if n <= 2:
         return n
     a, b = 1, 2
@@ -6,12 +19,13 @@ def climb_stairs(n):
         a, b = b, a + b
     return b
 
-n = 5
-print(climb_stairs(n))
 
-#2nd way
-def climb_stairs(n):
-    # dp[i] = number of ways to reach step i
+def climb_stairs_dp(n):
+    """Bottom-up DP table.
+
+    dp[i] = number of ways to reach step i.
+    Time: O(n), Space: O(n)
+    """
     if n <= 2:
         return n
 
@@ -24,5 +38,12 @@ def climb_stairs(n):
 
     return dp[n]
 
-n = 5
-print(climb_stairs(n))
+
+def main():
+    n = 5
+    print(climb_stairs_optimized(n))
+    print(climb_stairs_dp(n))
+
+
+if __name__ == "__main__":
+    main()
