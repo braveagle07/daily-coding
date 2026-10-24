@@ -52,6 +52,8 @@ daily-coding/
 │   ├── day10.py
 │   ├── dayn.py
 │   ├── twosum.py
+│   ├── 2409_count_days_spent_together.cpp
+│   ├── 507_perfect_number.py
 │   ├── revstring.py
 │   ├── rec overlap.py
 │   ├── Majority Element.py
