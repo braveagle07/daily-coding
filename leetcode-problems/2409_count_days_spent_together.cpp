@@ -2,7 +2,6 @@
 // Idea: convert each "MM-DD" to day-of-year, then answer = overlap of the two ranges
 //       = min(leaves) - max(arrivals) + 1, clamped to 0.
 // Time: O(1), Space: O(1)
-
 class Solution {
 public:
 
