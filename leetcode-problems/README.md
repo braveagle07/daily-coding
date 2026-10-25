@@ -1,54 +1,10 @@
-# LeetCode Problems — Python & Java
+# LeetCode 1672: Richest Customer Wealth
 
-This folder contains my daily LeetCode problem-solving practice.
+This problem asks for the maximum sum of money among all customers in a bank.
 
-For every problem, I will first try to solve it from scratch and then write solutions in **both Python and Java**. My goal is to improve problem-solving skills, data structures and algorithms, and confidence in writing clean code in multiple languages.
+Solution approach:
+- For each customer, compute the sum of their accounts.
+- Take the maximum of all those sums.
 
-## Goals
-
-- Solve problems consistently
-- Understand the logic before coding
-- Write solutions in Python and Java
-- Learn time and space complexity analysis
-- Improve coding and debugging skills
-
-## Folder Structure
-
-Each problem will have its own folder:
-
-```text
-leetcode-problems/
-├── 0001-two-sum/
-│   ├── solution.py
-│   ├── Solution.java
-│   └── README.md
-├── 0002-add-two-numbers/
-│   ├── solution.py
-│   ├── Solution.java
-│   └── README.md
-└── README.md
-```
-
-## Problem Notes
-
-For each problem, I will try to include:
-
-- Problem name and link
-- Approach / logic used
-- Python solution
-- Java solution
-- Time complexity
-- Space complexity
-- Important learning notes
-
-## Progress
-
-| 1 | Add Two Integers | ✅ | ⬜ | Easy |
-| 2 | Sqrt(x) | ✅ | ⬜ | Easy |
-| 3 | Fizz Buzz | ✅ | ⬜ | Easy |
-
-## Learning Rule
-
-> First understand the problem, then think of an approach, and finally implement it in Python or Java.
-
-Happy coding! 🚀
+Time complexity: O(n * m)
+Space complexity: O(1)
